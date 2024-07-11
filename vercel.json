@@ -1,5 +1,12 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
-  "headers": []
+  "headers": [],
+  "redirects": [
+    {
+      "source": "/baidu",
+      "destination": "https://www.baidu.com",
+      "permanent": true
+    }
+  ]
 }
