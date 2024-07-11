@@ -4,8 +4,48 @@
   "headers": [],
   "redirects": [
     {
-      "source": "/baidu",
-      "destination": "https://www.baidu.com",
+      "source": "/am",
+      "destination": "https://music.apple.com/artist/陳一發兒/1516816674",
+      "permanent": true
+    },
+    {
+      "source": "/spotify",
+      "destination": "https://open.spotify.com/artist/10xtjTRMlKZ7aFx6VBQlSj",
+      "permanent": true
+    },
+    {
+      "source": "/splist",
+      "destination": "https://open.spotify.com/playlist/1O59BhoZHfzjvp0atoVL0G",
+      "permanent": true
+    },
+    {
+      "source": "/splist1",
+      "destination": "https://open.spotify.com/playlist/1O59BhoZHfzjvp0atoVL0G",
+      "permanent": true
+    },
+    {
+      "source": "/splist2",
+      "destination": "https://open.spotify.com/playlist/7taPlPLqnxIDoPoWXz1592",
+      "permanent": true
+    },
+    {
+      "source": "/wyy",
+      "destination": "https://music.163.com/user/home?id=19570392",
+      "permanent": true
+    },
+    {
+      "source": "/ytbc",
+      "destination": "https://youtube.com/@chenyifaer/community",
+      "permanent": true
+    },
+    {
+      "source": "/ym",
+      "destination": "https://music.youtube.com/channel/UC_ELcGmQE30rD5F45H72zwg",
+      "permanent": true
+    },
+    {
+      "source": "/ytbm",
+      "destination": "https://youtube.com/@chenyifaer/releases",
       "permanent": true
     }
   ]
