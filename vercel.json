@@ -47,6 +47,11 @@
       "source": "/ytbm",
       "destination": "https://youtube.com/@chenyifaer/releases",
       "permanent": true
+    },
+    {
+      "source": "/tb",
+      "destination": "https://chenyifaer.taobao.com",
+      "permanent": true
     }
   ]
 }
