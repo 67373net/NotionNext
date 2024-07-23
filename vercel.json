@@ -14,7 +14,7 @@
       "permanent": true
     },
     {
-      "source": "/splist1?",
+      "source": "/(splist1?)",
       "destination": "https://open.spotify.com/playlist/1O59BhoZHfzjvp0atoVL0G",
       "permanent": true
     }
