@@ -4,7 +4,7 @@
   "headers": [],
   "redirects": [
     {
-      "source": "/(am|applemusic)",
+      "source": "/(am|[aA]pple[mM]usic)",
       "destination": "https://music.apple.com/artist/陳一發兒/1516816674",
       "permanent": true
     },
@@ -29,7 +29,7 @@
       "permanent": true
     },
     {
-      "source": "/youtube",
+      "source": "/([yY]ou[tT]ube)",
       "destination": "https://www.youtube.com/@chenyifaer",
       "permanent": true
     },
@@ -49,7 +49,7 @@
       "permanent": true
     },
     {
-      "source": "/twitch",
+      "source": "/([tT]witch)",
       "destination": "https://www.twitch.tv/thebs_chen",
       "permanent": true
     },
@@ -64,12 +64,12 @@
       "permanent": true
     },
     {
-      "source": "/(tg|telegram)",
+      "source": "/(tg|[tT]elegram)",
       "destination": "https://t.me/FaFa67373",
       "permanent": true
     },
     {
-      "source": "/twitter",
+      "source": "/([tT]witter)",
       "destination": "https://twitter.com/yifaer_chen",
       "permanent": true
     },
@@ -79,7 +79,7 @@
       "permanent": true
     },
     {
-      "source": "/(chq|lb|longbridge)",
+      "source": "/(chq|lb|[lL]ong[bB]ridge)",
       "destination": "https://app.longbridgehk.com/ac/oa?account_channel=lb&channel=HB100035&invite-code=ESUL8Y",
       "permanent": true
     }
