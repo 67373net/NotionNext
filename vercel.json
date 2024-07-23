@@ -17,6 +17,71 @@
       "source": "/(splist1?)",
       "destination": "https://open.spotify.com/playlist/1O59BhoZHfzjvp0atoVL0G",
       "permanent": true
+    },
+    {
+      "source": "/splist2",
+      "destination": "https://open.spotify.com/playlist/7taPlPLqnxIDoPoWXz1592",
+      "permanent": true
+    },
+    {
+      "source": "/wyy",
+      "destination": "https://music.163.com/user/home?id=19570392",
+      "permanent": true
+    },
+    {
+      "source": "/([yY]ou[tT]ube)",
+      "destination": "https://www.youtube.com/@chenyifaer",
+      "permanent": true
+    },
+    {
+      "source": "/ytbc",
+      "destination": "https://youtube.com/@chenyifaer/community",
+      "permanent": true
+    },
+    {
+      "source": "/ym",
+      "destination": "https://music.youtube.com/channel/UC_ELcGmQE30rD5F45H72zwg",
+      "permanent": true
+    },
+    {
+      "source": "/ytbm",
+      "destination": "https://youtube.com/@chenyifaer/releases",
+      "permanent": true
+    },
+    {
+      "source": "/([tT]witch)",
+      "destination": "https://www.twitch.tv/thebs_chen",
+      "permanent": true
+    },
+    {
+      "source": "/(ins|ig)",
+      "destination": "https://www.instagram.com/yifaer_chen",
+      "permanent": true
+    },
+    {
+      "source": "/tb",
+      "destination": "https://chenyifaer.taobao.com",
+      "permanent": true
+    },
+    {
+      "source": "/(tg|[tT]elegram)",
+      "destination": "https://t.me/FaFa67373",
+      "permanent": true
+    },
+    {
+      "source": "/([tT]witter)",
+      "destination": "https://twitter.com/yifaer_chen",
+      "permanent": true
+    },
+    {
+      "source": "/(xy|xianyu)",
+      "destination": "https://m.tb.cn/h.g63Ysmg?tk=kimQ3ZaNkNq",
+      "permanent": true
+    },
+    {
+      "source": "/(chq|lb|[lL]ong[bB]ridge)",
+      "destination": "https://app.longbridgehk.com/ac/oa?account_channel=lb&channel=HB100035&invite-code=ESUL8Y",
+      "permanent": true
     }
   ]
 }
