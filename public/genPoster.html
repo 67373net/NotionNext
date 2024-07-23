@@ -74,17 +74,14 @@
 </head>
 
 <body>
-  <img src="https://raw.githubusercontent.com/67373net/serverPublicAll/main/commonSrc/YouTube-logo-banner.png">
-  <div id="poster" style="width: fit-content; margin: auto;">
-    <p>Loading poster...</p>
+  <img style="width: 100%;"
+    src="https://raw.githubusercontent.com/67373net/serverPublicAll/main/commonSrc/YouTube-logo-banner.png">
+  <div style="max-height: 56.25vw; width:100%; background-color: black;">
+    <img id="poster" style="max-height: 56.25vw; height: 100%; width: 100%; object-fit: contain;" >
   </div>
   <div style="padding: 1.8vw 5vw 2.8vw 5vw;background-color: #202020;">
-    <div class="biger" id="title">
-      <p>fdsafdafdafdafd发动发动发动发动发动发动发动发动发动发动发动发动发动发动发动afdafdasfdafd</p>
-    </div>
-    <div class="biger" id="time">
-      <p>fdsafdafdafdafdafd</p>
-    </div>
+    <div class="biger" id="title"> </div>
+    <div class="biger" id="time"> </div>
     <p>一般周一、三、六，北京时间 20:40 在 YouTube 直播</p>
     <hr />
     <div style="width: fit-content;margin: auto;">
@@ -98,11 +95,12 @@
       <p><span class="leftText">twitter</span><a>67373.net/twitter</a></p>
       <p><span class="leftText">淘宝店 - 喜瑞斯</span><a>67373.net/tb</a></p>
       <p><span class="leftText">闲鱼 - 小德小卖部</span><a>67373.net/xy</a></p>
+      <p><span class="leftText">长桥证券专属开户链接</span><a>67373.net/chq</a></p>
       <p><span class="leftText">投稿邮箱</span><a>chenyifaer777@gmail.com</a></p>
     </div>
   </div>
   <div id="xdyc">
-    <div style="display: flex; margin: auto;width: fit-content;">
+    <div style="display: flex; margin: auto;width: fit-content; height: 18vw">
       <img src="https://raw.githubusercontent.com/67373net/serverPublicAll/main/commonSrc/小德影城二维码.png">
       <div style="width: 3vw;"></div>
       <div style="margin: auto;">
@@ -131,7 +129,7 @@
     function displayPoster() {
       const params = getQueryParams();
       const posterDiv = document.getElementById('poster');
-      posterDiv.innerHTML = `<img src="${params.cover}" alt="Poster">`;
+      posterDiv.src = params.cover;
       const titleDiv = document.getElementById('title');
       titleDiv.innerHTML = `<p>${params.title}</p>`
       const timeDiv = document.getElementById('time');
