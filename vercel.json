@@ -79,8 +79,18 @@
       "permanent": true
     },
     {
-      "source": "/mail",
-      "destination": "mailto:chenyifaer777@gmail.com",
+      "source": "/twitter",
+      "destination": "https://twitter.com/yifaer_chen",
+      "permanent": true
+    },
+    {
+      "source": "/xy",
+      "destination": "https://m.tb.cn/h.g63Ysmg?tk=kimQ3ZaNkNq",
+      "permanent": true
+    },
+    {
+      "source": "/xianyu",
+      "destination": "https://m.tb.cn/h.g63Ysmg?tk=kimQ3ZaNkNq",
       "permanent": true
     }
   ]
