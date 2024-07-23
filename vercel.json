@@ -7,6 +7,16 @@
       "source": "/(am|[aA]pple[mM]usic)",
       "destination": "https://music.apple.com/artist/陳一發兒/1516816674",
       "permanent": true
+    },
+    {
+      "source": "/spotify",
+      "destination": "https://open.spotify.com/artist/10xtjTRMlKZ7aFx6VBQlSj",
+      "permanent": true
+    },
+    {
+      "source": "/splist1?",
+      "destination": "https://open.spotify.com/playlist/1O59BhoZHfzjvp0atoVL0G",
+      "permanent": true
     }
   ]
 }
