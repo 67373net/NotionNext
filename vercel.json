@@ -4,7 +4,7 @@
   "headers": [],
   "redirects": [
     {
-      "source": "/am",
+      "source": "/(am|[aA]pple[mM]usic)",
       "destination": "https://music.apple.com/artist/陳一發兒/1516816674",
       "permanent": true
     },
@@ -14,12 +14,7 @@
       "permanent": true
     },
     {
-      "source": "/splist",
-      "destination": "https://open.spotify.com/playlist/1O59BhoZHfzjvp0atoVL0G",
-      "permanent": true
-    },
-    {
-      "source": "/splist1",
+      "source": "/splist1?",
       "destination": "https://open.spotify.com/playlist/1O59BhoZHfzjvp0atoVL0G",
       "permanent": true
     },
@@ -34,7 +29,7 @@
       "permanent": true
     },
     {
-      "source": "youtube",
+      "source": "[yY]ou[tT]ube",
       "destination": "https://www.youtube.com/@chenyifaer",
       "permanent": true
     },
@@ -54,17 +49,12 @@
       "permanent": true
     },
     {
-      "source": "/twitch",
+      "source": "/[tT]witch",
       "destination": "https://www.twitch.tv/thebs_chen",
       "permanent": true
     },
     {
-      "source": "/ins",
-      "destination": "https://www.instagram.com/yifaer_chen",
-      "permanent": true
-    },
-    {
-      "source": "/ig",
+      "source": "/(ins|ig)",
       "destination": "https://www.instagram.com/yifaer_chen",
       "permanent": true
     },
@@ -74,23 +64,23 @@
       "permanent": true
     },
     {
-      "source": "/tg",
+      "source": "/(tg|[tT]elegram)",
       "destination": "https://t.me/FaFa67373",
       "permanent": true
     },
     {
-      "source": "/twitter",
+      "source": "/[tT]witter",
       "destination": "https://twitter.com/yifaer_chen",
       "permanent": true
     },
     {
-      "source": "/xy",
+      "source": "/(xy|xianyu)",
       "destination": "https://m.tb.cn/h.g63Ysmg?tk=kimQ3ZaNkNq",
       "permanent": true
     },
     {
-      "source": "/xianyu",
-      "destination": "https://m.tb.cn/h.g63Ysmg?tk=kimQ3ZaNkNq",
+      "source": "/(chq|lb|longbridge)",
+      "destination": "https://app.longbridgehk.com/ac/oa?account_channel=lb&channel=HB100035&invite-code=ESUL8Y",
       "permanent": true
     }
   ]
