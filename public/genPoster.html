@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display Poster</title>
+  <style>
+@font-face {
+    font-family: 'MonuTitl-Md';
+    src: url('https://raw.githubusercontent.com/67373net/serverPublicAll/main/commonSrc/MonuTitl-0.96CnMd.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MonuTitl-Bd';
+    src: url('https://raw.githubusercontent.com/67373net/serverPublicAll/main/commonSrc/MonuTitl-0.96CnBd.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+    body {
+      margin: 0;
+      background-color: black;
+      color: white;
+      font-family: 'MonuTitl-Md', sans-serif;
+      font-size: 3.4vw;
+      line-height: 0.68em;
+      color: #d5d5d5;
+    }
+
+    .bold {
+      font-family: 'MonuTitl-Bd', sans-serif;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    p a,
+    p a:visited {
+      color: #f34342 !important;
+      text-decoration: none;
+    }
+
+    hr {
+      border: #f34342 1px solid;
+      margin: 1.5em 0;
+      opacity: 0.58;
+    }
+
+    .biger {
+      color: white;
+      font-size: 1.2em;
+      line-height: 1.28em;
+    }
+
+    #xdyc {
+      background-color: white;
+      width: 100%;
+      padding: 3vw 0;
+    }
+  </style>
+</head>
+
+<body>
+  <img src="https://raw.githubusercontent.com/67373net/serverPublicAll/main/commonSrc/YouTube-logo-banner.png">
+  <div id="poster" style="width: fit-content; margin: auto;">
+    <p>Loading poster...</p>
+  </div>
+  <div style="padding: 1.8vw 5vw 2.8vw 5vw;background-color: #202020;">
+    <div class="biger" id="title">
+      <p>fdsafdafdafdafd发动发动发动发动发动发动发动发动发动发动发动发动发动发动发动afdafdasfdafd</p>
+    </div>
+    <div class="biger" id="time">
+      <p>fdsafdafdafdafdafd</p>
+    </div>
+    <p>一般周一、三、六，北京时间 20:40 在 YouTube 直播</p>
+    <hr />
+    <p>开播通知 Telegram 群：<a>67373.net/tg</a> QQ 群：606797995</p>
+    <p>YouTube：<a>67373.net/youtube</a></p>
+    <p>YouTube 直播回放：<a>67373.net/replay</a></p>
+    <p>Twitch：<a>67373.net/twitch</a></p>
+    <p>Spotify：<a>67373.net/spotify</a></p>
+    <p>Instagram：<a>67373.net/ig</a></p>
+    <p>twitter：<a>67373.net/twitter</a></p>
+    <p>淘宝店 - 喜瑞斯：<a>67373.net/tb</a></p>
+    <p>闲鱼 - 小德小卖部：<a>67373.net/xy</a></p>
+    <p>投稿邮箱：<a>chenyifaer777@gmail.com</a></p>
+  </div>
+  <div id="xdyc">
+    <div style="display: flex; margin: auto;width: fit-content;">
+      <img src="https://raw.githubusercontent.com/67373net/serverPublicAll/main/commonSrc/小德影城二维码.png">
+      <div style="width: 3vw;"></div>
+      <div style="margin: auto;">
+        <p style="font-size: 1.3em; color: black;">
+          <span class="bold">小德影城 </span>
+          开播公告及通知
+        </p>
+        <p style="font-size: 1.1em; color: #06c262;">微信中长按图片，即可使用</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Function to get query parameters from URL
+    function getQueryParams() {
+      const params = {};
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
+      for (const [key, value] of urlParams.entries()) {
+        params[key] = value;
+      }
+      return params;
+    }
+
+    // Function to display poster
+    function displayPoster() {
+      const params = getQueryParams();
+      const posterDiv = document.getElementById('poster');
+      posterDiv.innerHTML = `<img src="${params.cover}" alt="Poster">`;
+      const titleDiv = document.getElementById('title');
+      titleDiv.innerHTML = `<p>${params.title}</p>`
+      const timeDiv = document.getElementById('time');
+      timeDiv.innerHTML = `<p>${params.time}</p>`
+    }
+
+    // Call the function to display the poster when the page loads
+    window.onload = displayPoster;
+  </script>
+</body>
+
+</html>
