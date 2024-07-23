@@ -6,19 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Display Poster</title>
   <style>
-@font-face {
-    font-family: 'MonuTitl-Md';
-    src: url('https://raw.githubusercontent.com/67373net/serverPublicAll/main/commonSrc/MonuTitl-0.96CnMd.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+    @font-face {
+      font-family: 'MonuTitl-Md';
+      src: url('https://raw.githubusercontent.com/67373net/serverPublicAll/main/commonSrc/MonuTitl-0.96CnMd.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
 
-@font-face {
-    font-family: 'MonuTitl-Bd';
-    src: url('https://raw.githubusercontent.com/67373net/serverPublicAll/main/commonSrc/MonuTitl-0.96CnBd.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
+    @font-face {
+      font-family: 'MonuTitl-Bd';
+      src: url('https://raw.githubusercontent.com/67373net/serverPublicAll/main/commonSrc/MonuTitl-0.96CnBd.ttf') format('truetype');
+      font-weight: bold;
+      font-style: normal;
+    }
 
     body {
       margin: 0;
@@ -43,6 +43,8 @@
     p a:visited {
       color: #f34342 !important;
       text-decoration: none;
+      display: inline-block;
+      margin-left: 0.8em;
     }
 
     hr {
@@ -62,6 +64,12 @@
       width: 100%;
       padding: 3vw 0;
     }
+
+    .leftText {
+      width: 9em;
+      display: inline-block;
+      text-align: right;
+    }
   </style>
 </head>
 
@@ -79,16 +87,19 @@
     </div>
     <p>一般周一、三、六，北京时间 20:40 在 YouTube 直播</p>
     <hr />
-    <p>开播通知 Telegram 群：<a>67373.net/tg</a> QQ 群：606797995</p>
-    <p>YouTube：<a>67373.net/youtube</a></p>
-    <p>YouTube 直播回放：<a>67373.net/replay</a></p>
-    <p>Twitch：<a>67373.net/twitch</a></p>
-    <p>Spotify：<a>67373.net/spotify</a></p>
-    <p>Instagram：<a>67373.net/ig</a></p>
-    <p>twitter：<a>67373.net/twitter</a></p>
-    <p>淘宝店 - 喜瑞斯：<a>67373.net/tb</a></p>
-    <p>闲鱼 - 小德小卖部：<a>67373.net/xy</a></p>
-    <p>投稿邮箱：<a>chenyifaer777@gmail.com</a></p>
+    <div style="width: fit-content;margin: auto;">
+      <p><span class="leftText">开播通知 QQ 群</span><a>606797995</a></p>
+      <p><span class="leftText">开播通知 Telegram 群</span><a>67373.net/tg</a></p>
+      <p><span class="leftText">YouTube</span><a>67373.net/youtube</a></p>
+      <p><span class="leftText">直播回放</span><a>67373.net/replay</a></p>
+      <p><span class="leftText">Twitch</span><a>67373.net/twitch</a></p>
+      <p><span class="leftText">Spotify</span><a>67373.net/spotify</a></p>
+      <p><span class="leftText">Instagram</span><a>67373.net/ig</a></p>
+      <p><span class="leftText">twitter</span><a>67373.net/twitter</a></p>
+      <p><span class="leftText">淘宝店 - 喜瑞斯</span><a>67373.net/tb</a></p>
+      <p><span class="leftText">闲鱼 - 小德小卖部</span><a>67373.net/xy</a></p>
+      <p><span class="leftText">投稿邮箱</span><a>chenyifaer777@gmail.com</a></p>
+    </div>
   </div>
   <div id="xdyc">
     <div style="display: flex; margin: auto;width: fit-content;">
