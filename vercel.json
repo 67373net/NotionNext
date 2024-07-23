@@ -34,6 +34,11 @@
       "permanent": true
     },
     {
+      "source": "youtube",
+      "destination": "https://www.youtube.com/@chenyifaer",
+      "permanent": true
+    },
+    {
       "source": "/ytbc",
       "destination": "https://youtube.com/@chenyifaer/community",
       "permanent": true
@@ -49,8 +54,33 @@
       "permanent": true
     },
     {
+      "source": "/twitch",
+      "destination": "https://www.twitch.tv/thebs_chen",
+      "permanent": true
+    },
+    {
+      "source": "/ins",
+      "destination": "https://www.instagram.com/yifaer_chen",
+      "permanent": true
+    },
+    {
+      "source": "/ig",
+      "destination": "https://www.instagram.com/yifaer_chen",
+      "permanent": true
+    },
+    {
       "source": "/tb",
       "destination": "https://chenyifaer.taobao.com",
+      "permanent": true
+    },
+    {
+      "source": "/tg",
+      "destination": "https://t.me/FaFa67373",
+      "permanent": true
+    },
+    {
+      "source": "/mail",
+      "destination": "mailto:chenyifaer777@gmail.com",
       "permanent": true
     }
   ]
