@@ -29,7 +29,7 @@
       "permanent": true
     },
     {
-      "source": "[yY]ou[tT]ube",
+      "source": "/[yY]ou[tT]ube",
       "destination": "https://www.youtube.com/@chenyifaer",
       "permanent": true
     },
