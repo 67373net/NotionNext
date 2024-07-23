@@ -79,7 +79,7 @@
       "permanent": true
     },
     {
-      "source": "/(chq|lb|longbridge)",
+      "source": "/(chq|lb|[lL]ong[bB]ridge)",
       "destination": "https://app.longbridgehk.com/ac/oa?account_channel=lb&channel=HB100035&invite-code=ESUL8Y",
       "permanent": true
     }
