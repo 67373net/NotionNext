@@ -82,6 +82,21 @@
       "source": "/(chq|lb|[lL]ong[bB]ridge)",
       "destination": "https://app.longbridgehk.com/ac/oa?account_channel=lb&channel=HB100035&invite-code=ESUL8Y",
       "permanent": true
+    },
+    {
+      "source": "/chaohua",
+      "destination": "https://huati.weibo.com/k/陈一发儿",
+      "permanent": true
+    },
+    {
+      "source": "/(wb|weibo)",
+      "destination": "https://weibo.com/u/7357828611",
+      "permanent": true
+    },
+    {
+      "source": "/tieba",
+      "destination": "https://tieba.baidu.com/f?kw=陈一发儿",
+      "permanent": true
     }
   ]
 }

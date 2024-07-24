@@ -213,12 +213,14 @@ const LayoutArchive = props => {
  * @returns
  */
 const Layout404 = props => {
-  return (
-    <>
-      网址错误，请检查~
-      <br/>陈一发儿所有资讯汇总：<a href="https://www.67373.net/article/all">67373.net/all</a>
-    </>
-  )
+  const router = useRouter();
+
+  useEffect(() => {
+    // 当组件挂载时立即进行重定向
+    router.replace('https://www.67373.net/404');
+  }, [router]);
+
+  return null; // 返回 null，避免渲染任何内容
 }
 
 /**
