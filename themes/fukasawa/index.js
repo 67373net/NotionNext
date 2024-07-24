@@ -217,7 +217,7 @@ const Layout404 = props => {
 
   useEffect(() => {
     // 当组件挂载时立即进行重定向
-    router.replace('https://www.67373.net/404');
+    router.replace('https://www.67373.net/404-2');
   }, [router]);
 
   return null; // 返回 null，避免渲染任何内容
