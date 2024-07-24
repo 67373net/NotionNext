@@ -2,104 +2,102 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "headers": [],
-  "redirects": [
-    {
-      "source": "/(am|[aA]pple[mM]usic)",
-      "destination": "https://music.apple.com/artist/陳一發兒/1516816674",
-      "permanent": true
-    },
-    {
-      "source": "/spotify",
-      "destination": "https://open.spotify.com/artist/10xtjTRMlKZ7aFx6VBQlSj",
-      "permanent": true
-    },
-    {
-      "source": "/(splist1?)",
-      "destination": "https://open.spotify.com/playlist/1O59BhoZHfzjvp0atoVL0G",
-      "permanent": true
-    },
-    {
-      "source": "/splist2",
-      "destination": "https://open.spotify.com/playlist/7taPlPLqnxIDoPoWXz1592",
-      "permanent": true
-    },
-    {
-      "source": "/wyy",
-      "destination": "https://music.163.com/user/home?id=19570392",
-      "permanent": true
-    },
-    {
-      "source": "/(ytb|[yY]ou[tT]ube)",
-      "destination": "https://www.youtube.com/@chenyifaer",
-      "permanent": true
-    },
-    {
-      "source": "/ytbc",
-      "destination": "https://youtube.com/@chenyifaer/community",
-      "permanent": true
-    },
-    {
-      "source": "/ym",
-      "destination": "https://music.youtube.com/channel/UC_ELcGmQE30rD5F45H72zwg",
-      "permanent": true
-    },
-    {
-      "source": "/ytbm",
-      "destination": "https://youtube.com/@chenyifaer/releases",
-      "permanent": true
-    },
-    {
-      "source": "/([tT]witch)",
-      "destination": "https://www.twitch.tv/thebs_chen",
-      "permanent": true
-    },
-    {
-      "source": "/(ins|ig)",
-      "destination": "https://www.instagram.com/yifaer_chen",
-      "permanent": true
-    },
-    {
-      "source": "/tb",
-      "destination": "https://chenyifaer.taobao.com",
-      "permanent": true
-    },
-    {
-      "source": "/(tg|[tT]elegram)",
-      "destination": "https://t.me/FaFa67373",
-      "permanent": true
-    },
-    {
-      "source": "/([tT]witter)",
-      "destination": "https://twitter.com/yifaer_chen",
-      "permanent": true
-    },
-    {
-      "source": "/(xy|xianyu)",
-      "destination": "https://m.tb.cn/h.g63Ysmg?tk=kimQ3ZaNkNq",
-      "permanent": true
-    },
-    {
-      "source": "/(chq|lb|[lL]ong[bB]ridge)",
-      "destination": "https://app.longbridgehk.com/ac/oa?account_channel=lb&channel=HB100035&invite-code=ESUL8Y",
-      "permanent": true
-    },
-    {
-      "source": "/chaohua",
-      "destination": "https://huati.weibo.com/k/陈一发儿",
-      "permanent": true
-    },
-    {
-      "source": "/(wb|weibo)",
-      "destination": "https://weibo.com/u/7357828611",
-      "permanent": true
-    },
-    {
-      "source": "/tieba",
-      "destination": "https://tieba.baidu.com/f?kw=陈一发儿",
-      "permanent": true
-    }
-  ],
   "routes": [
+    {
+      "src": "/(am|[aA]pple[mM]usic)",
+      "status": 308,
+      "headers": { "Location": "https://music.apple.com/artist/陳一發兒/1516816674" }
+    },
+    {
+      "src": "/spotify",
+      "status": 308,
+      "headers": { "Location": "https://open.spotify.com/artist/10xtjTRMlKZ7aFx6VBQlSj" }
+    },
+    {
+      "src": "/(splist1?)",
+      "status": 308,
+      "headers": { "Location": "https://open.spotify.com/playlist/1O59BhoZHfzjvp0atoVL0G" }
+    },
+    {
+      "src": "/splist2",
+      "status": 308,
+      "headers": { "Location": "https://open.spotify.com/playlist/7taPlPLqnxIDoPoWXz1592" }
+    },
+    {
+      "src": "/wyy",
+      "status": 308,
+      "headers": { "Location": "https://music.163.com/user/home?id=19570392" }
+    },
+    {
+      "src": "/(ytb|[yY]ou[tT]ube)",
+      "status": 308,
+      "headers": { "Location": "https://www.youtube.com/@chenyifaer" }
+    },
+    {
+      "src": "/ytbc",
+      "status": 308,
+      "headers": { "Location": "https://youtube.com/@chenyifaer/community" }
+    },
+    {
+      "src": "/ym",
+      "status": 308,
+      "headers": { "Location": "https://music.youtube.com/channel/UC_ELcGmQE30rD5F45H72zwg" }
+    },
+    {
+      "src": "/ytbm",
+      "status": 308,
+      "headers": { "Location": "https://youtube.com/@chenyifaer/releases" }
+    },
+    {
+      "src": "/([tT]witch)",
+      "status": 308,
+      "headers": { "Location": "https://www.twitch.tv/thebs_chen" }
+    },
+    {
+      "src": "/(ins|ig)",
+      "status": 308,
+      "headers": { "Location": "https://www.instagram.com/yifaer_chen" }
+    },
+    {
+      "src": "/tb",
+      "status": 308,
+      "headers": { "Location": "https://chenyifaer.taobao.com" }
+    },
+    {
+      "src": "/(tg|[tT]elegram)",
+      "status": 308,
+      "headers": { "Location": "https://t.me/FaFa67373" }
+    },
+    {
+      "src": "/([tT]witter)",
+      "status": 308,
+      "headers": { "Location": "https://twitter.com/yifaer_chen" }
+    },
+    {
+      "src": "/(xy|xianyu)",
+      "status": 308,
+      "headers": { "Location": "https://m.tb.cn/h.g63Ysmg?tk=kimQ3ZaNkNq" }
+    },
+    {
+      "src": "/(chq|lb|[lL]ong[bB]ridge)",
+      "status": 308,
+      "headers": { "Location": "https://app.longbridgehk.com/ac/oa?account_channel=lb&channel=HB100035&invite-code=ESUL8Y" }
+    },
+    {
+      "src": "/chaohua",
+      "status": 308,
+      "headers": { "Location": "https://huati.weibo.com/k/陈一发儿" }
+    },
+    {
+      "src": "/(wb|weibo)",
+      "status": 308,
+      "headers": { "Location": "https://weibo.com/u/7357828611" }
+    },
+    {
+      "src": "/tieba",
+      "status": 308,
+      "headers": { "Location": "https://tieba.baidu.com/f?kw=陈一发儿" }
+    },
     {"handle": "filesystem"},
     { "src": "/(.*)","status": 404,"dest": "/404-2" }
   ]
