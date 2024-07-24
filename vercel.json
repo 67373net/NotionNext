@@ -3,8 +3,8 @@
   "trailingSlash": false,
   "headers": [],
   "routes": [
-    { "src": "/(am|[aA]pple[mM]usic)", "status": 308, "dest": "https://music.apple.com/artist/陳一發兒/1516816674" },
     { "handle": "filesystem" },
+    { "src": "/(am|[aA]pple[mM]usic)", "status": 308, "dest": "https://music.apple.com/artist/陳一發兒/1516816674" },
     { "src": "/(.*)","status": 404,"dest": "/404-2" }
   ]
 }
