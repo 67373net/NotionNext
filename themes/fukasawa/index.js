@@ -213,7 +213,12 @@ const LayoutArchive = props => {
  * @returns
  */
 const Layout404 = props => {
-  return <>404</>
+  return (
+    <>
+      网址错误，请检查~
+      <br/>陈一发儿所有资讯汇总：<a href="https://www.67373.net/article/all">67373.net/all</a>
+    </>
+  )
 }
 
 /**
