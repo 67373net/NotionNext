@@ -98,5 +98,9 @@
       "destination": "https://tieba.baidu.com/f?kw=陈一发儿",
       "permanent": true
     }
+  ],
+  "routes": [
+    {"handle": "filesystem"},
+    { "src": "/(.*)","status": 404,"dest": "/404-2" }
   ]
 }
