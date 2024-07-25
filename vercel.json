@@ -97,6 +97,11 @@
       "source": "/tieba",
       "destination": "https://tieba.baidu.com/f?kw=陈一发儿",
       "permanent": true
+    },
+    {
+      "source": "/lbtg",
+      "destination": "https://t.me/+2Wmam8i_5Qs3YjRl",
+      "permanent": true
     }
   ]
 }
