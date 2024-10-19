@@ -102,6 +102,11 @@
       "source": "/lbtg",
       "destination": "https://t.me/+2Wmam8i_5Qs3YjRl",
       "permanent": true
+    },
+    {
+      "source": "/us",
+      "destination": "https://chenyifaer.us",
+      "permanent": true
     }
   ]
 }
