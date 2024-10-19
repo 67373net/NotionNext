@@ -9,7 +9,7 @@
       "permanent": true
     },
     {
-      "source": "/spotify",
+      "source": "/(sp|spotify)",
       "destination": "https://open.spotify.com/artist/10xtjTRMlKZ7aFx6VBQlSj",
       "permanent": true
     },
@@ -29,7 +29,7 @@
       "permanent": true
     },
     {
-      "source": "/(ytb|[yY]ou[tT]ube)",
+      "source": "/(yt|ytb|[yY]ou[tT]ube)",
       "destination": "https://www.youtube.com/@chenyifaer",
       "permanent": true
     },
