@@ -69,7 +69,7 @@
       "permanent": true
     },
     {
-      "source": "/([tT]witter|[xX])",
+      "source": "/([tT]witter)",
       "destination": "https://twitter.com/yifaer_chen",
       "permanent": true
     },
